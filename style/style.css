@@ -50,11 +50,73 @@ li {
     color: #ffffff;
     border: 6px solid #ffffff;
     font-family: 'Russo One', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
 }
 
-h1 {
+.logo h1 {
     opacity: 0.8;
     line-height: 1.6;
+}
+
+/* About Section */
+
+.about {
+    margin-left: 2rem;
+    padding: 3rem;
+}
+
+.about h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #ffffff;
+    width: 40%;
+}
+
+#member {
+    color:  #7300e6;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/*Photos Section */
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    border-bottom: 4px solid #ffffff;
+    border-top: 4px solid #ffffff;
+}
+
+.photos img {
+    width: 500px;
+    height: 300px;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color:#7300e6;
+    padding-top: 1rem;
+    height: 250px;
+    width: 100%;
+}
+
+.quote h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.quote p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+
 }
